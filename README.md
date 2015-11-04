@@ -1,5 +1,10 @@
 ## Introduction
 
+This repo contains the solution files for the project 1 in the Exploratory Data Analysis course. The R code and PNG file containg the plots for the assignment reside here.
+
+The instructions for the assignment can be seen below.
+
+## Assignment Instructions
 This assignment uses data from
 the <a href="http://archive.ics.uci.edu/ml/">UC Irvine Machine
 Learning Repository</a>, a popular repository for machine learning
