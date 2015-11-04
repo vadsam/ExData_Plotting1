@@ -1,5 +1,5 @@
 
-rawdata <- read.table("household_power_consumption.txt", header = TRUE, sep = ";")
+rawdata <- read.table("household_power_consumption.txt", header = TRUE, sep = ";", stringsAsFactors = FALSE)
 rawdata$Date <- as.Date(rawdata$Date, format='%d/%m/%Y')
 Feb_Data <- subset(rawdata, Date== "2007-02-01" | Date == "2007-02-02")
 
